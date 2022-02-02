@@ -1,17 +1,17 @@
-public class People
+public class Pessoa
 {
-    public int Age { get; set; }
-    public string? Name { get; set; }
-    public string? Document { get; set; }
+    public int Idade { get; set; }
+    public string Nome { get; set; }
+    public string Documento { get; set; }
 
-    public People Clone()
+    public Pessoa Clone()
     {
       
-      return new People()
+      return new Pessoa()
       {
-        Document = this.Document,
-        Age = this.Age,
-        Name = this.Name
+        Documento = this.Documento,
+        Idade = this.Idade,
+        Nome = this.Nome
 
       };
     }

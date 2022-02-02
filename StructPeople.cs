@@ -1,7 +1,6 @@
-
-public struct StructPeople
+public struct StructPessoa
 {
-  public int Age { get; set; }
-  public string Name { get; set; }
-  public string Document { get; set; }
+  public int Idade { get; set; }
+  public string Nome { get; set; }
+  public string Documento { get; set; }
 }

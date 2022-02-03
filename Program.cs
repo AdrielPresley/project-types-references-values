@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using System.Collections.Generic;
+using static System.Console;
 public class Program
 {
   static void Ex6()
